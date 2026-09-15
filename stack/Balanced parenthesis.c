@@ -28,7 +28,7 @@ char peek(int top) {
 
 bool isValid(char* s) {
     int i;
-
+  top=-1;
     for(i = 0; s[i] != '\0'; i++) {
 
         if(s[i] == '(' || s[i] == '{' || s[i] == '[') {
